@@ -2,34 +2,44 @@ body {
   background-color: bisque;
   .container {
     display: grid;
-    grid-template-rows: 150px 150px;
-    grid-template-columns: 150px 150px 150px;
+    // grid-template-rows: 150px 150px;
+    grid-template-rows: repeat(
+      2,
+      150px
+    ); // alternative if you have too many rows
+    // grid-template-columns: 150px 150px 150px;
+    // grid-template-columns: repeat(2, 150px) 1fr;
+    grid-template-columns: repeat(3, 1fr);
     width: 1000px;
     margin: 100px auto;
     background-color: lightgrey;
+    // column-gap: 30px;
+    // row-gap: 40px;
+    gap: 15px;
   }
   .item {
     padding: 20px;
     font-size: 30px;
     font-family: sans-serif;
     color: white;
-  }
-  .item--1 {
-    background-color: orange;
-  }
-  .item--2 {
-    background-color: olive;
-  }
-  .item--3 {
-    background-color: salmon;
-  }
-  .item--4 {
-    background-color: skyblue;
-  }
-  .item--5 {
-    background-color: hotpink;
-  }
-  .item--6 {
-    background-color: mediumpurple;
+
+    &--1 {
+      background-color: orange;
+    }
+    &--2 {
+      background-color: olive;
+    }
+    &--3 {
+      background-color: salmon;
+    }
+    &--4 {
+      background-color: skyblue;
+    }
+    &--5 {
+      background-color: hotpink;
+    }
+    &--6 {
+      background-color: mediumpurple;
+    }
   }
 }
