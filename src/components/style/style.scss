@@ -1,3 +1,35 @@
 body {
-  background-color: salmon;
+  background-color: bisque;
+  .container {
+    display: grid;
+    grid-template-rows: 150px 150px;
+    grid-template-columns: 150px 150px 150px;
+    width: 1000px;
+    margin: 100px auto;
+    background-color: lightgrey;
+  }
+  .item {
+    padding: 20px;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: white;
+  }
+  .item--1 {
+    background-color: orange;
+  }
+  .item--2 {
+    background-color: olive;
+  }
+  .item--3 {
+    background-color: salmon;
+  }
+  .item--4 {
+    background-color: skyblue;
+  }
+  .item--5 {
+    background-color: hotpink;
+  }
+  .item--6 {
+    background-color: mediumpurple;
+  }
 }
