@@ -210,15 +210,15 @@ body {
     background-color: lightsteelblue;
     display: grid;
     grid-template-rows: repeat(2, minmax(150px, min-content));
-    grid-template-columns: max-content 1fr 1fr min-content;
-    gap: 10px;
+    // grid-template-columns: repeat(auto-fill, 100px);
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    // gap: 10px;
     // grid-auto-rows: 50px;
     .grid-item {
       padding: 20px;
       color: white;
       font-family: sans-serif;
       font-size: 30px;
-      background-color: coral;
     }
     .item-1 {
       background-color: rgb(0, 138, 92);
