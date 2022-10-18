@@ -94,6 +94,43 @@ body {
   }
   */
 
+  // .grid-container {
+  //   display: grid;
+  //   width: 1000px;
+  //   background-color: bisque;
+  //   margin: 150px auto;
+  //   grid-template-rows: [item-1-start] 70px [item-1-end box-start] 200px [box-end main-start] 400px [main-end footer-start] 70px [footer-end];
+  //   grid-template-columns: repeat(3, [col-start] 1fr [col-end]) 170px [grid-end];
+  //   gap: 30px;
+  //   color: white;
+  //   .grid-item {
+  //     padding: 20px;
+  //     font-size: 30px;
+  //     background-color: salmon;
+  //   }
+  //   .item-1 {
+  //     // grid-column: 1 / -1;
+  //     grid-column: col-start 1 / -1;
+  //   }
+  //   .item-2 {
+  //     grid-row: box-start / main-end;
+  //     grid-column: col-end 3 / grid-end;
+  //     // grid-column: 4 / 5;
+  //   }
+  //   .item-6 {
+  //     grid-row: main-start / main-end;
+  //     // grid-row: 3 / 4;
+  //     grid-column: col-start 1 / col-end 3;
+  //     // grid-column: 1 / 4;
+  //   }
+  //   .item-7 {
+  //     grid-row: footer-start / footer-end;
+  //     // grid-row: 4 / 5;
+  //     // grid-column: 1 / -1;
+  //     grid-column: col-start 1 / -1;
+  //   }
+  // }
+
   .grid-container {
     display: grid;
     width: 1000px;
@@ -101,6 +138,11 @@ body {
     margin: 150px auto;
     grid-template-rows: [item-1-start] 70px [item-1-end box-start] 200px [box-end main-start] 400px [main-end footer-start] 70px [footer-end];
     grid-template-columns: repeat(3, [col-start] 1fr [col-end]) 170px [grid-end];
+    grid-template-areas:
+      'head head head head'
+      'box box box side'
+      'main main main side'
+      'foot foot foot foot';
     gap: 30px;
     color: white;
     .grid-item {
@@ -109,25 +151,16 @@ body {
       background-color: salmon;
     }
     .item-1 {
-      // grid-column: 1 / -1;
-      grid-column: col-start 1 / -1;
+      grid-area: head;
     }
     .item-2 {
-      grid-row: box-start / main-end;
-      grid-column: col-end 3 / grid-end;
-      // grid-column: 4 / 5;
+      grid-area: side;
     }
     .item-6 {
-      grid-row: main-start / main-end;
-      // grid-row: 3 / 4;
-      grid-column: col-start 1 / col-end 3;
-      // grid-column: 1 / 4;
+      grid-area: main;
     }
     .item-7 {
-      grid-row: footer-start / footer-end;
-      // grid-row: 4 / 5;
-      // grid-column: 1 / -1;
-      grid-column: col-start 1 / -1;
+      grid-area: foot;
     }
   }
 }
