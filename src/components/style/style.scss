@@ -164,20 +164,55 @@ body {
   //   }
   // }
 
+  // .grid-container {
+  //   width: 1000px;
+  //   height: 1000px;
+  //   margin: 100px auto;
+  //   background-color: lightsteelblue;
+  //   display: grid;
+  //   grid-template-rows: repeat(2, 150px);
+  //   grid-template-columns: repeat(2, 150px);
+  //   gap: 10px;
+  //   // align-items: center;
+  //   // justify-items: center;
+  //   // justify-content: center;
+  //   // align-content: center;
+  //   grid-auto-flow: row dense;
+  //   .grid-item {
+  //     padding: 20px;
+  //     color: white;
+  //     font-family: sans-serif;
+  //     font-size: 30px;
+  //     background-color: coral;
+  //   }
+  //   .item-4 {
+  //     background-color: lightpink;
+  //     grid-row: 2 / span 3;
+  //     align-self: flex-end;
+  //     justify-self: start;
+  //   }
+  //   .item-2 {
+  //     background-color: lightpink;
+  //     grid-column: 2 / span 2;
+  //     align-self: flex-end;
+  //     justify-self: start;
+  //   }
+  //   .item-7 {
+  //     background-color: rgb(143, 191, 255);
+  //     grid-column: 1 / -1;
+  //   }
+  // }
+
   .grid-container {
     width: 1000px;
-    height: 1000px;
+    // height: 1000px;
     margin: 100px auto;
     background-color: lightsteelblue;
     display: grid;
-    grid-template-rows: repeat(2, 150px);
-    grid-template-columns: repeat(2, 150px);
+    grid-template-rows: repeat(2, minmax(150px, min-content));
+    grid-template-columns: max-content 1fr 1fr min-content;
     gap: 10px;
-    // align-items: center;
-    // justify-items: center;
-    // justify-content: center;
-    // align-content: center;
-    grid-auto-flow: row dense;
+    // grid-auto-rows: 50px;
     .grid-item {
       padding: 20px;
       color: white;
@@ -185,21 +220,29 @@ body {
       font-size: 30px;
       background-color: coral;
     }
-    .item-4 {
-      background-color: lightpink;
-      grid-row: 2 / span 3;
-      align-self: flex-end;
-      justify-self: start;
+    .item-1 {
+      background-color: rgb(0, 138, 92);
     }
     .item-2 {
-      background-color: lightpink;
-      grid-column: 2 / span 2;
-      align-self: flex-end;
-      justify-self: start;
+      background-color: rgb(28, 138, 0);
+    }
+    .item-3 {
+      background-color: rgb(97, 138, 0);
+    }
+    .item-4 {
+      background-color: rgb(138, 136, 0);
+    }
+    .item-5 {
+      background-color: rgb(138, 106, 0);
+    }
+    .item-6 {
+      background-color: rgb(138, 74, 0);
     }
     .item-7 {
-      background-color: rgb(143, 191, 255);
-      grid-column: 1 / -1;
+      background-color: rgb(138, 39, 0);
+    }
+    .item-8 {
+      background-color: rgb(138, 0, 0);
     }
   }
 }

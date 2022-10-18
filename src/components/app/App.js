@@ -28,7 +28,9 @@ function App() {
         <div className="grid-item item-5">And</div>
         <div className="grid-item item-6">Grid</div>
         <div className="grid-item item-7">Is</div>
-        <div className="grid-item item-8">Great</div>
+        <div className="grid-item item-8">
+          Great and super super super super super super super super super super
+        </div>
       </div>
     </div>
   );
