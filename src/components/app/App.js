@@ -11,7 +11,7 @@ function App() {
         <div className="item item--6">6: Medium Purple</div>
       </div> */}
 
-      <div className="grid-container">
+      {/* <div className="grid-container">
         <div className="grid-item item-1">Header</div>
         <div className="grid-item item-2">Sidebar</div>
         <div className="grid-item item-3">Small box 1</div>
@@ -19,6 +19,16 @@ function App() {
         <div className="grid-item item-5">Small box 3</div>
         <div className="grid-item item-6">Main content</div>
         <div className="grid-item item-7">Footer</div>
+      </div> */}
+      <div className="grid-container">
+        <div className="grid-item item-1">Modern</div>
+        <div className="grid-item item-2">CSS</div>
+        <div className="grid-item item-3">With</div>
+        <div className="grid-item item-4">Flexbox</div>
+        <div className="grid-item item-5">And</div>
+        <div className="grid-item item-6">Grid</div>
+        <div className="grid-item item-7">Is</div>
+        <div className="grid-item item-8">Great</div>
       </div>
     </div>
   );

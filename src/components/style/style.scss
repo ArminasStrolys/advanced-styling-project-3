@@ -131,36 +131,63 @@ body {
   //   }
   // }
 
+  // .grid-container {
+  //   display: grid;
+  //   width: 1000px;
+  //   background-color: bisque;
+  //   margin: 150px auto;
+  //   grid-template-rows: [item-1-start] 70px [item-1-end box-start] 200px [box-end main-start] 400px [main-end footer-start] 70px [footer-end];
+  //   grid-template-columns: repeat(3, [col-start] 1fr [col-end]) 170px [grid-end];
+  //   grid-template-areas:
+  //     'head head head head'
+  //     'box box box side'
+  //     'main main main side'
+  //     'foot foot foot foot';
+  //   gap: 30px;
+  //   color: white;
+  //   .grid-item {
+  //     padding: 20px;
+  //     font-size: 30px;
+  //     background-color: salmon;
+  //   }
+  //   .item-1 {
+  //     grid-area: head;
+  //   }
+  //   .item-2 {
+  //     grid-area: side;
+  //   }
+  //   .item-6 {
+  //     grid-area: main;
+  //   }
+  //   .item-7 {
+  //     grid-area: foot;
+  //   }
+  // }
+
   .grid-container {
-    display: grid;
     width: 1000px;
-    background-color: bisque;
-    margin: 150px auto;
-    grid-template-rows: [item-1-start] 70px [item-1-end box-start] 200px [box-end main-start] 400px [main-end footer-start] 70px [footer-end];
-    grid-template-columns: repeat(3, [col-start] 1fr [col-end]) 170px [grid-end];
-    grid-template-areas:
-      'head head head head'
-      'box box box side'
-      'main main main side'
-      'foot foot foot foot';
-    gap: 30px;
-    color: white;
+    margin: 100px auto;
+    background-color: lightsteelblue;
+    display: grid;
+    grid-template-rows: repeat(2, 150px);
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    align-items: center;
+    justify-items: center;
     .grid-item {
       padding: 20px;
+      color: white;
+      font-family: sans-serif;
       font-size: 30px;
-      background-color: salmon;
+      background-color: coral;
     }
-    .item-1 {
-      grid-area: head;
-    }
-    .item-2 {
-      grid-area: side;
-    }
-    .item-6 {
-      grid-area: main;
+    .item-4 {
+      background-color: lightpink;
+      grid-row: 2 / span 3;
     }
     .item-7 {
-      grid-area: foot;
+      background-color: rgb(143, 191, 255);
+      grid-column: 1 / -1;
     }
   }
 }
