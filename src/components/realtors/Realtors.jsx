@@ -1,7 +1,14 @@
 import React from 'react';
 
 const Realtors = () => {
-  return <div>REALTORS</div>;
+  return (
+    <div
+      className="realtors
+  "
+    >
+      REALTORS
+    </div>
+  );
 };
 
 export default Realtors;

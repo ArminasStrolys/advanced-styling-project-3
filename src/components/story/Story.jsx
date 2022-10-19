@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Story = () => {
-  return <div>STORY</div>;
+  return <div className="story">STORY</div>;
 };
 
 export default Story;
