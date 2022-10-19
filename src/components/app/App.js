@@ -6,7 +6,8 @@ import Header from '../header/Header';
 import Homes from '../homes/Homes';
 import Realtors from '../realtors/Realtors';
 import Sidebar from '../sidebar/Sidebar';
-import Story from '../story/Story';
+import StoryContent from '../story/StoryContent';
+import StoryPictures from '../story/StoryPictures';
 
 export default function App() {
   return (
@@ -15,7 +16,8 @@ export default function App() {
       <Header />
       <Realtors />
       <Features />
-      <Story />
+      <StoryPictures />
+      <StoryContent />
       <Homes />
       <Gallery />
       <Footer />

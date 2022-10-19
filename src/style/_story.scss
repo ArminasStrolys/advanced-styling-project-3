@@ -1,4 +1,12 @@
 .story {
-  background-color: rgb(108, 30, 210);
-  color: white;
+  &__pictures {
+    background-color: rgb(108, 30, 210);
+    grid-column: full-start / col-end 4;
+    color: white;
+  }
+  &__content {
+    background-color: rgb(97, 66, 138);
+    grid-column: col-start 5 / full-end;
+    color: white;
+  }
 }
