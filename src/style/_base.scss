@@ -1,15 +1,14 @@
 // COLOR VARIABLES
-$color-primary: #c69963;
-$color-primary-dark: #b28451;
-
-$color-secondary: #101d2c;
-
-$color-grey-light-1: #f9f7f6;
-$color-grey-light-2: #aaa;
-
-$color-grey-dark-1: #54483a;
-$color-grey-dark-2: #6d5d4b;
-
+$col-black: black;
+$col-white: white;
+$col-gray-1: gray;
+$col-light-gray-1: lightgray;
+//LUXURY COLORS
+$col-lux-1: #0a0908;
+$col-lux-2: #49111c;
+$col-lux-3: #f2f4f3;
+$col-lux-4: #a9927d;
+$col-lux-5: #5e503f;
 // FONT VARIABLES
 $font-primary: 'Nunito', sans-serif;
 $font-display: 'Josefin Sans', sans-serif;
@@ -29,4 +28,7 @@ html {
 
 body {
   font-family: $font-primary;
+  color: $col-lux-5;
+  font-weight: 300;
+  line-height: 1.6rem;
 }
