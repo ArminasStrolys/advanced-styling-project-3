@@ -10,7 +10,7 @@ import Story from '../story/Story';
 
 export default function App() {
   return (
-    <div className="main-grid-container">
+    <body className="main-grid-container">
       <Sidebar />
       <Header />
       <Realtors />
@@ -19,6 +19,6 @@ export default function App() {
       <Homes />
       <Gallery />
       <Footer />
-    </div>
+    </body>
   );
 }
