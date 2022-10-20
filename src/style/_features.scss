@@ -1,4 +1,7 @@
 .features {
-  background-color: rgb(177, 255, 255);
   grid-column: center-start / center-end;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 15rem 0;
+  gap: 6rem;
 }
