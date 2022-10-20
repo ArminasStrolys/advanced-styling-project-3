@@ -1,12 +1,17 @@
 import React from 'react';
 import global from '../../images/globe.svg';
+import dollar from '../../images/dollar-sign.svg';
+import divide from '../../images/divide.svg';
+import briefcase from '../../images/briefcase.svg';
+import compass from '../../images/compass.svg';
+import home from '../../images/home.svg';
 
 const Features = () => {
   return (
     <div className="features">
       <div className="feature">
         <img feature__icon src={global} alt="" />
-        <h4 className="heading-4">Best choice for your luxury home.</h4>
+        <h4 className="heading-4">Best choice for your luxury home</h4>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
           unde maiores explicabo minima incidunt saepe tempore in est porro, hic
@@ -15,53 +20,52 @@ const Features = () => {
         </p>
       </div>
       <div className="feature">
-        <img feature__icon src={global} alt="" />
-        <h4 className="heading-4">Best choice for your luxury home.</h4>
+        <img feature__icon src={compass} alt="" />
+        <h4 className="heading-4">Worldwide business</h4>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-          unde maiores explicabo minima incidunt saepe tempore in est porro, hic
-          deleniti iusto possimus totam aut deserunt necessitatibus. Fugiat,
-          excepturi deserunt.
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis unde
+          distinctio, nesciunt eius, saepe ad non mollitia natus totam odio sunt
+          in, aliquid temporibus voluptas eaque soluta facilis!
         </p>
       </div>
       <div className="feature">
-        <img feature__icon src={global} alt="" />
-        <h4 className="heading-4">Best choice for your luxury home.</h4>
+        <img feature__icon src={briefcase} alt="" />
+        <h4 className="heading-4">Best realtors on the work</h4>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-          unde maiores explicabo minima incidunt saepe tempore in est porro, hic
-          deleniti iusto possimus totam aut deserunt necessitatibus. Fugiat,
-          excepturi deserunt.
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat
+          accusamus ipsa doloribus rerum sint culpa veniam explicabo voluptatem,
+          possimus cupiditate fugit quidem perspiciatis eum.
         </p>
       </div>
       <div className="feature">
-        <img feature__icon src={global} alt="" />
-        <h4 className="heading-4">Best choice for your luxury home.</h4>
+        <img feature__icon src={dollar} alt="" />
+        <h4 className="heading-4">Best prices for quality</h4>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-          unde maiores explicabo minima incidunt saepe tempore in est porro, hic
-          deleniti iusto possimus totam aut deserunt necessitatibus. Fugiat,
-          excepturi deserunt.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut
+          praesentium eos laboriosam repellendus dignissimos, fugit in
+          asperiores? Voluptate accusantium nemo earum vitae iste quos
+          voluptates similique, necessitatibus dolorum nisi, perferendis magnam
+          optio soluta possimus qui!
         </p>
       </div>
       <div className="feature">
-        <img feature__icon src={global} alt="" />
-        <h4 className="heading-4">Best choice for your luxury home.</h4>
+        <img feature__icon src={divide} alt="" />
+        <h4 className="heading-4">Short and uncomplicated</h4>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-          unde maiores explicabo minima incidunt saepe tempore in est porro, hic
-          deleniti iusto possimus totam aut deserunt necessitatibus. Fugiat,
-          excepturi deserunt.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda,
+          facilis vel eaque obcaecati aspernatur recusandae maxime praesentium
+          at pariatur?
         </p>
       </div>
       <div className="feature">
-        <img feature__icon src={global} alt="" />
-        <h4 className="heading-4">Best choice for your luxury home.</h4>
+        <img feature__icon src={home} alt="" />
+        <h4 className="heading-4">Unique projects for you only</h4>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-          unde maiores explicabo minima incidunt saepe tempore in est porro, hic
-          deleniti iusto possimus totam aut deserunt necessitatibus. Fugiat,
-          excepturi deserunt.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur,
+          voluptatibus expedita inventore accusamus sint fugit reprehenderit
+          voluptates nisi in ea blanditiis vero quia, sunt veritatis odit, saepe
+          corporis hic quaerat aliquid culpa error maxime nostrum perferendis
+          illum? Asperiores, exercitationem.
         </p>
       </div>
     </div>
