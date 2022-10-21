@@ -4,15 +4,17 @@
   grid-template-columns: repeat(3, 1fr);
   margin: 15rem 0;
   gap: 6rem;
-  //   mask-image: url('../images/svg/quotes.svg');
-  // mask-size: cover;
-  // background-color: var(--col-gray-0);
 }
 .feature {
+  display: grid;
+  grid-template-columns: min-content 1fr;
+  gap: 1.5rem 2.5rem;
   &__icon {
+    grid-row: 1 / span 2;
+    transform: translateY(-2rem);
     & > * {
       mask-size: cover;
-      background-color: $col-lux-5;
+      background-color: $col-lux-4;
       width: 5rem;
       height: 5rem;
     }
@@ -34,5 +36,8 @@
     &--6 {
       mask-image: url('../images/home.svg');
     }
+  }
+  &__text {
+    font-size: 1.7rem;
   }
 }
