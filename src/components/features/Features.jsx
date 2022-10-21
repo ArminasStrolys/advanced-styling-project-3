@@ -10,7 +10,10 @@ const Features = () => {
   return (
     <div className="features">
       <div className="feature">
-        <img feature__icon src={global} alt="globe svg icon" />
+        {/* <img feature__icon src={global} alt="globe svg icon" /> */}
+        <div className="feature__icon">
+          <div className="feature__icon--1">&nbsp;</div>
+        </div>
         <h4 className="heading-4">Best choice for your luxury home</h4>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
@@ -20,7 +23,10 @@ const Features = () => {
         </p>
       </div>
       <div className="feature">
-        <img feature__icon src={compass} alt="compass svg icon" />
+        {/* <img feature__icon src={compass} alt="compass svg icon" /> */}
+        <div className="feature__icon">
+          <div className="feature__icon--2">&nbsp;</div>
+        </div>
         <h4 className="heading-4">Worldwide business</h4>
         <p>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis unde
@@ -29,7 +35,10 @@ const Features = () => {
         </p>
       </div>
       <div className="feature">
-        <img feature__icon src={briefcase} alt="briefcase svg icon" />
+        {/* <img feature__icon src={briefcase} alt="briefcase svg icon" /> */}
+        <div className="feature__icon">
+          <div className="feature__icon--3">&nbsp;</div>
+        </div>
         <h4 className="heading-4">Best realtors on the work</h4>
         <p>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat
@@ -38,7 +47,10 @@ const Features = () => {
         </p>
       </div>
       <div className="feature">
-        <img feature__icon src={dollar} alt="dollar sign svg icon" />
+        {/* <img feature__icon src={dollar} alt="dollar sign svg icon" /> */}
+        <div className="feature__icon">
+          <div className="feature__icon--4">&nbsp;</div>
+        </div>
         <h4 className="heading-4">Best prices for quality</h4>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut
@@ -49,7 +61,10 @@ const Features = () => {
         </p>
       </div>
       <div className="feature">
-        <img feature__icon src={divide} alt="divide svg icon" />
+        {/* <img feature__icon src={divide} alt="divide svg icon" /> */}
+        <div className="feature__icon">
+          <div className="feature__icon--5">&nbsp;</div>
+        </div>
         <h4 className="heading-4">Short and uncomplicated</h4>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda,
@@ -58,7 +73,10 @@ const Features = () => {
         </p>
       </div>
       <div className="feature">
-        <img feature__icon src={home} alt="home svg icon" />
+        {/* <img feature__icon src={home} alt="home svg icon" /> */}
+        <div className="feature__icon">
+          <div className="feature__icon--6">&nbsp;</div>
+        </div>
         <h4 className="heading-4">Unique projects for you only</h4>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur,

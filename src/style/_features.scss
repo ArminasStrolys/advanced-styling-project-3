@@ -4,4 +4,35 @@
   grid-template-columns: repeat(3, 1fr);
   margin: 15rem 0;
   gap: 6rem;
+  //   mask-image: url('../images/svg/quotes.svg');
+  // mask-size: cover;
+  // background-color: var(--col-gray-0);
+}
+.feature {
+  &__icon {
+    & > * {
+      mask-size: cover;
+      background-color: $col-lux-5;
+      width: 5rem;
+      height: 5rem;
+    }
+    &--1 {
+      mask-image: url('../images/globe.svg');
+    }
+    &--2 {
+      mask-image: url('../images/compass.svg');
+    }
+    &--3 {
+      mask-image: url('../images/briefcase.svg');
+    }
+    &--4 {
+      mask-image: url('../images/dollar-sign.svg');
+    }
+    &--5 {
+      mask-image: url('../images/divide.svg');
+    }
+    &--6 {
+      mask-image: url('../images/home.svg');
+    }
+  }
 }
