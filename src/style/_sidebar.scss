@@ -1,5 +1,5 @@
 .sidebar {
-  background-color: coral;
+  background-color: $col-lux-4;
   grid-column: sidebar-start / sidebar-end;
   grid-row: 1 / -1;
 }

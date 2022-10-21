@@ -1,5 +1,23 @@
 .homes {
-  background-color: maroon;
-  color: white;
   grid-column: center-start / center-end;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap: 7rem;
+  margin: 15rem 0;
+}
+.home {
+  background-color: $col-lux-3;
+  &__image {
+    width: 100%;
+  }
+  &__like {
+    background-image: url('../images/heart.svg');
+    width: 3rem;
+    height: 3rem;
+  }
+  &__pin {
+    background-image: url('../images/pin.svg');
+    width: 3rem;
+    height: 3rem;
+  }
 }
