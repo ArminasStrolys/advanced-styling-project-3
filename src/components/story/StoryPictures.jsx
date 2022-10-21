@@ -5,7 +5,6 @@ import pic2 from '../../images/story-2.jpeg';
 const StoryPictures = () => {
   return (
     <div className="story__pictures">
-      PICTURES
       <img className="story__img--1" src={pic1} alt="" />
       <img className="story__img--2" src={pic2} alt="" />
     </div>

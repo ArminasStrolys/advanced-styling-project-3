@@ -12,7 +12,11 @@ $col-lux-5: #5e503f;
 // FONT VARIABLES
 $font-primary: 'Nunito', sans-serif;
 $font-display: 'Josefin Sans', sans-serif;
-
+// MIXINS
+@mixin box-shadow {
+  box-shadow: 0 1rem 2rem rgba($col-black, 0.5);
+}
+// UNIVERSAL RESET
 *,
 *::after,
 *::before {
@@ -32,7 +36,7 @@ body {
   font-weight: 300;
   line-height: 1.6;
 }
-
+// THE MAIN GRID RULES
 .main-grid-container {
   display: grid;
   grid-template-rows: 80vh min-content 40vw repeat(3, min-content);

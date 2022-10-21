@@ -8,7 +8,7 @@ const Features = () => {
           <div className="feature__icon--1">&nbsp;</div>
         </div>
         <h4 className="heading-4 heading-4--dark">
-          Best choice for your luxury home
+          Your best choice for luxury
         </h4>
         <p className="feature__text">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
@@ -32,7 +32,7 @@ const Features = () => {
         <div className="feature__icon">
           <div className="feature__icon--3">&nbsp;</div>
         </div>
-        <h4 className="heading-4 heading-4--dark">Best realtors on the work</h4>
+        <h4 className="heading-4 heading-4--dark">Qualified realtors</h4>
         <p className="feature__text">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat
           accusamus ipsa doloribus rerum sint culpa veniam explicabo voluptatem,
@@ -56,7 +56,7 @@ const Features = () => {
         <div className="feature__icon">
           <div className="feature__icon--5">&nbsp;</div>
         </div>
-        <h4 className="heading-4 heading-4--dark">Short and uncomplicated</h4>
+        <h4 className="heading-4 heading-4--dark">Short and simple process</h4>
         <p className="feature__text">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda,
           facilis vel eaque obcaecati aspernatur recusandae maxime praesentium
@@ -67,9 +67,7 @@ const Features = () => {
         <div className="feature__icon">
           <div className="feature__icon--6">&nbsp;</div>
         </div>
-        <h4 className="heading-4 heading-4--dark">
-          Unique projects for you only
-        </h4>
+        <h4 className="heading-4 heading-4--dark">Unique projects</h4>
         <p className="feature__text">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur,
           voluptatibus expedita inventore accusamus sint fugit reprehenderit
