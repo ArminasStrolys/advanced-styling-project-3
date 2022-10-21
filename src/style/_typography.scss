@@ -8,9 +8,21 @@
 }
 .heading-2 {
   @extend %heading;
+  font-size: 4rem;
+  font-style: italic;
+  line-height: 1;
+  &--light {
+    color: $col-lux-4;
+  }
+  &--dark {
+    color: $col-lux-5;
+  }
 }
 .heading-3 {
   @extend %heading;
+  font-size: 1.6rem;
+  color: $col-lux-4;
+  text-transform: uppercase;
 }
 .heading-4 {
   @extend %heading;
@@ -21,4 +33,33 @@
   &--dark {
     color: $col-lux-5;
   }
+}
+//----------------------------------BUTTONS
+.btn {
+  background-color: $col-lux-4;
+  color: $col-white;
+  border-radius: 0;
+  border: none;
+  font-family: $font-display;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  padding: 1.8rem 3rem;
+  cursor: pointer;
+  transition: 0.3s;
+  &:hover {
+    background-color: $col-lux-5;
+  }
+}
+//----------------------------------HELPERS
+.mb-sm {
+  // MARGIN BOTTOM SMALL
+  margin-bottom: 2rem;
+}
+.mb-md {
+  // MARGIN BOTTOM MEDIUM
+  margin-bottom: 3rem;
+}
+.mb-lg {
+  // MARGIN BOTTOM LARGE
+  margin-bottom: 4rem;
 }
