@@ -15,9 +15,32 @@
     width: 3rem;
     height: 3rem;
   }
-  &__pin {
-    background-image: url('../images/pin.svg');
-    width: 3rem;
-    height: 3rem;
+  &__location {
+    &-pin {
+      background-image: url('../images/pin.svg');
+      width: 3rem;
+      height: 3rem;
+    }
+  }
+  &__area {
+    &-zone {
+      background-image: url('../images/zone.svg');
+      width: 3rem;
+      height: 3rem;
+    }
+  }
+  &__rooms {
+    &-key {
+      background-image: url('../images/key.svg');
+      width: 3rem;
+      height: 3rem;
+    }
+  }
+  &__price {
+    &-euro {
+      background-image: url('../images/euro.svg');
+      width: 3rem;
+      height: 3rem;
+    }
   }
 }
