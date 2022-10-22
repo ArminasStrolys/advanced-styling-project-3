@@ -12,6 +12,7 @@ const Homes = () => {
       {/*--------------------------------------------------------------------------------1ST HOUSE CARD*/}
       <div className="home">
         <img src={house1} alt="House 1" className="home__image" />
+        <div className="home__like-bg">&nbsp;</div>
         <div className="home__like">&nbsp;</div>
         <h5 className="home__name">Beautiful family house</h5>
         <div className="home__location">
@@ -37,6 +38,7 @@ const Homes = () => {
       {/*--------------------------------------------------------------------------------2ND HOUSE CARD*/}
       <div className="home">
         <img src={house2} alt="House 1" className="home__image" />
+        <div className="home__like-bg">&nbsp;</div>
         <div className="home__like">&nbsp;</div>
         <h5 className="home__name">SPA resort</h5>
         <div className="home__location">
@@ -62,6 +64,7 @@ const Homes = () => {
       {/*--------------------------------------------------------------------------------3RD HOUSE CARD*/}
       <div className="home">
         <img src={house3} alt="House 1" className="home__image" />
+        <div className="home__like-bg">&nbsp;</div>
         <div className="home__like">&nbsp;</div>
         <h5 className="home__name">Forest retreat</h5>
         <div className="home__location">
@@ -87,6 +90,7 @@ const Homes = () => {
       {/*--------------------------------------------------------------------------------4TH HOUSE CARD*/}
       <div className="home">
         <img src={house4} alt="House 1" className="home__image" />
+        <div className="home__like-bg">&nbsp;</div>
         <div className="home__like">&nbsp;</div>
         <h5 className="home__name">Winter mansion</h5>
         <div className="home__location">
@@ -112,6 +116,7 @@ const Homes = () => {
       {/*--------------------------------------------------------------------------------5TH HOUSE CARD*/}
       <div className="home">
         <img src={house5} alt="House 1" className="home__image" />
+        <div className="home__like-bg">&nbsp;</div>
         <div className="home__like">&nbsp;</div>
         <h5 className="home__name">Summer palace</h5>
         <div className="home__location">
@@ -137,6 +142,7 @@ const Homes = () => {
       {/*--------------------------------------------------------------------------------6TH HOUSE CARD*/}
       <div className="home">
         <img src={house6} alt="House 1" className="home__image" />
+        <div className="home__like-bg">&nbsp;</div>
         <div className="home__like">&nbsp;</div>
         <h5 className="home__name">Modernistic cottage</h5>
         <div className="home__location">

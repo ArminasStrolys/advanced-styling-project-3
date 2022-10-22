@@ -10,9 +10,13 @@
   display: grid;
   grid-template-columns: 2;
   grid-template-rows: 3;
-  gap: 2rem;
+  gap: 2rem 0;
   justify-items: center;
   text-align: center;
+  * p {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+  }
   &__name {
     grid-column: 1 / span 2;
     font-size: 2rem;
@@ -30,6 +34,21 @@
     grid-column: 1 / -1;
     justify-self: end;
     margin: 1rem;
+    position: absolute;
+    transition: 0.3s;
+    cursor: pointer;
+    &:hover {
+      scale: 1.2;
+      background-color: $col-hot-pink-darker;
+    }
+  }
+  &__like-bg {
+    background-color: $col-white;
+    width: 5rem;
+    height: 5rem;
+    grid-row: 1;
+    grid-column: 1 / -1;
+    justify-self: end;
     position: absolute;
   }
   &__location {
