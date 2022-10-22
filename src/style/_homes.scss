@@ -7,40 +7,81 @@
 }
 .home {
   background-color: $col-lux-3;
+  display: grid;
+  grid-template-columns: 2;
+  grid-template-rows: 3;
+  gap: 2rem;
+  justify-items: center;
+  text-align: center;
+  &__name {
+    grid-column: 1 / span 2;
+    font-size: 2rem;
+  }
   &__image {
     width: 100%;
+    grid-column: 1 / span 2;
   }
   &__like {
-    background-image: url('../images/heart.svg');
+    mask-image: url('../images/heart.svg');
+    background-color: $col-hot-pink;
     width: 3rem;
     height: 3rem;
+    grid-row: 1;
+    grid-column: 1 / -1;
+    justify-self: end;
+    margin: 1rem;
+    position: absolute;
   }
   &__location {
+    grid-row: 3;
+    grid-column: 1;
+    display: grid;
     &-pin {
-      background-image: url('../images/pin.svg');
-      width: 3rem;
-      height: 3rem;
+      justify-self: center;
+      mask-image: url('../images/pin.svg');
+      background-color: $col-lux-5;
+      width: 4rem;
+      height: 4rem;
     }
   }
   &__area {
+    grid-row: 4;
+    grid-column: 1;
+    display: grid;
     &-zone {
-      background-image: url('../images/zone.svg');
-      width: 3rem;
-      height: 3rem;
+      justify-self: center;
+      mask-image: url('../images/zone.svg');
+      background-color: $col-lux-5;
+      width: 4rem;
+      height: 4rem;
     }
   }
   &__rooms {
+    grid-row: 3;
+    grid-column: 2;
+    display: grid;
     &-key {
-      background-image: url('../images/key.svg');
-      width: 3rem;
-      height: 3rem;
+      justify-self: center;
+      mask-image: url('../images/key.svg');
+      background-color: $col-lux-5;
+      width: 4rem;
+      height: 4rem;
     }
   }
   &__price {
+    grid-row: 4;
+    grid-column: 2;
+    display: grid;
     &-euro {
-      background-image: url('../images/euro.svg');
-      width: 3rem;
-      height: 3rem;
+      justify-self: center;
+      mask-image: url('../images/euro.svg');
+      background-color: $col-lux-5;
+      width: 4rem;
+      height: 4rem;
     }
+  }
+  .btn {
+    grid-column: 1 / span 2;
+    justify-self: stretch;
   }
 }

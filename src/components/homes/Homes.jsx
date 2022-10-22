@@ -38,7 +38,7 @@ const Homes = () => {
       <div className="home">
         <img src={house2} alt="House 1" className="home__image" />
         <div className="home__like">&nbsp;</div>
-        <h5 className="home__name">Beautiful family house</h5>
+        <h5 className="home__name">SPA resort</h5>
         <div className="home__location">
           <div className="home__location-pin">&nbsp;</div>
           <p>Kyiv</p>
@@ -63,7 +63,7 @@ const Homes = () => {
       <div className="home">
         <img src={house3} alt="House 1" className="home__image" />
         <div className="home__like">&nbsp;</div>
-        <h5 className="home__name">Beautiful family house</h5>
+        <h5 className="home__name">Forest retreat</h5>
         <div className="home__location">
           <div className="home__location-pin">&nbsp;</div>
           <p>Riga</p>
@@ -88,7 +88,7 @@ const Homes = () => {
       <div className="home">
         <img src={house4} alt="House 1" className="home__image" />
         <div className="home__like">&nbsp;</div>
-        <h5 className="home__name">Beautiful family house</h5>
+        <h5 className="home__name">Winter mansion</h5>
         <div className="home__location">
           <div className="home__location-pin">&nbsp;</div>
           <p>Kaunas</p>
@@ -113,7 +113,7 @@ const Homes = () => {
       <div className="home">
         <img src={house5} alt="House 1" className="home__image" />
         <div className="home__like">&nbsp;</div>
-        <h5 className="home__name">Beautiful family house</h5>
+        <h5 className="home__name">Summer palace</h5>
         <div className="home__location">
           <div className="home__location-pin">&nbsp;</div>
           <p>Berlin</p>
@@ -138,7 +138,7 @@ const Homes = () => {
       <div className="home">
         <img src={house6} alt="House 1" className="home__image" />
         <div className="home__like">&nbsp;</div>
-        <h5 className="home__name">Beautiful family house</h5>
+        <h5 className="home__name">Modernistic cottage</h5>
         <div className="home__location">
           <div className="home__location-pin">&nbsp;</div>
           <p>Klaipėda</p>
