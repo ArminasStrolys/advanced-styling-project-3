@@ -1,4 +1,10 @@
 .gallery {
-  background-color: hotpink;
   grid-column: full-start / full-end;
+  background-color: $col-lux-3;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(7, 5vw);
+  &__img {
+    width: 100%;
+  }
 }
