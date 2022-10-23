@@ -9,10 +9,12 @@ const Header = () => {
   return (
     <div className="header">
       <img src={logo} alt="Logo of the company" className="header__logo" />
-      <h3 className="heading-3">Your own home</h3>
-      <h1 className="heading-1">The ultimate personal freedom</h1>
-      <button className="btn">View our offers</button>
-      <div className="header__companies">Backed by:</div>
+      <div className="header__mid-section">
+        <h3 className="heading-3  mb-sm">Your own home</h3>
+        <h1 className="heading-1 mb-lg">The ultimate personal freedom</h1>
+        <button className="btn">View our offers</button>
+      </div>
+      <div className="header__companies mb-sm">Our partners</div>
       <div className="header__companies-logos">
         <img src={logo1} alt="BBC logo" />
         <img src={logo2} alt="Forbes logo" />
