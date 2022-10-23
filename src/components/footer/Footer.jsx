@@ -35,6 +35,7 @@ const Footer = () => {
           </a>
         </li>
       </ul>
+      <p className="copyright">&copy; Copyright 2022 by Arminas Strolys.</p>
     </div>
   );
 };
