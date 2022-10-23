@@ -1,4 +1,8 @@
 .footer {
-  background-color: cornflowerblue;
+  background-color: $col-lux-4;
   grid-column: full-start / full-end;
+  padding: 8rem;
+  .nav {
+    list-style: none;
+  }
 }
