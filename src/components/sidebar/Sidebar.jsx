@@ -3,7 +3,7 @@ import React from 'react';
 const Sidebar = () => {
   return (
     <div className="sidebar">
-      <p>SIDEBAR</p>
+      <button className="nav-btn"></button>
     </div>
   );
 };

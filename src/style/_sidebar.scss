@@ -2,4 +2,28 @@
   background-color: $col-lux-4;
   grid-column: sidebar-start / sidebar-end;
   grid-row: 1 / -1;
+  display: flex;
+  justify-content: center;
+  .nav-btn {
+    border: none;
+    border-radius: 0;
+    background-color: $col-white;
+    height: 0.2rem;
+    width: 4rem;
+    margin-top: 4rem;
+    &::before,
+    &::after {
+      content: '';
+      background-color: $col-white;
+      height: 0.2rem;
+      width: 4rem;
+      display: block;
+    }
+    &::before {
+      transform: translateY(-1rem);
+    }
+    &::after {
+      transform: translateY(0.8rem);
+    }
+  }
 }
