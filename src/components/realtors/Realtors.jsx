@@ -6,8 +6,8 @@ import realtor3 from '../../images/realtor-3.jpeg';
 const Realtors = () => {
   return (
     <div className="realtors">
-      <h3 className="heading-3 mb-md">Top 3 realtors</h3>
       <div className="realtors__list">
+        <h3 className="heading-3">Top 3 realtors</h3>
         <img src={realtor1} alt="Realtor avatar 1" className="realtors__img" />
         <div className="realtors__details">
           <h4 className="heading-4 heading-4-light">Mark Bulker</h4>

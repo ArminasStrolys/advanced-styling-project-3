@@ -2,13 +2,15 @@
   background-color: $col-lux-1;
   grid-column: col-start 7 / full-end;
   padding: 3vw;
+  display: grid;
+  align-items: center;
+  justify-content: center;
   &__list {
     display: grid;
-    grid-template-columns: repeat(2, max-content);
+    grid-row: 1 / 2;
+    grid-template-columns: min-content, max-content;
     grid-template-rows: repeat(3, 1fr);
-    justify-items: start;
-    align-items: center;
-    gap: 5rem 1rem;
+    gap: 5vh 1rem;
   }
   &__img {
     grid-column: 1 / 2;
@@ -19,8 +21,17 @@
   &__details {
     grid-column: 2 / 3;
     color: $col-lux-4;
+    color: $col-white;
   }
   &__sold {
     font-size: 1.2rem;
+    margin-top: -0.5rem;
+    color: $col-light-gray-1;
+  }
+  .heading-3 {
+    grid-column: 1 / 3;
+    justify-self: center;
+    align-self: end;
+    transform: translateY(3rem);
   }
 }

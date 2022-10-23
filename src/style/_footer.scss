@@ -25,6 +25,7 @@
       cursor: pointer;
       &:hover {
         background-color: $col-lux-5-darker;
+        transform: translateY(-0.5rem);
         @include box-shadow;
       }
       &:active {
