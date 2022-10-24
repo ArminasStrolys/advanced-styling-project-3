@@ -15,7 +15,12 @@
     gap: 5vh 1rem;
     @include respond($port-md) {
       grid-template-columns: repeat(3, min-content max-content);
+      gap: 1rem;
+    }
+    @include respond($port-sm) {
+      grid-template-columns: min-content max-content;
       gap: 2rem;
+      margin: 2rem 0;
     }
   }
   &__img {
@@ -30,7 +35,7 @@
     color: $col-white;
     @include respond($port-md) {
       &:not(:last-child) {
-        margin-right: 5rem;
+        margin-right: 3rem;
       }
     }
   }
