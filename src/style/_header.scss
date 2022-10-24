@@ -13,14 +13,14 @@
   }
   @include respond($port-md) {
     background-size: 345%;
+    grid-column: full-start / full-end;
+    grid-template-rows: repeat(4, 1fr);
   }
   background-repeat: repeat;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(5, 1fr);
-  @include respond($port-md) {
-    grid-template-rows: repeat(4, 1fr);
-  }
+
   &__logo {
     height: 3rem;
     grid-column: 1 / -1;

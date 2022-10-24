@@ -15,6 +15,9 @@
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(6, 1fr);
     align-items: center;
+    @include respond($port-md) {
+      grid-column: full-start / full-end;
+    }
   }
   &__img--1 {
     width: 100%;
@@ -22,6 +25,15 @@
     grid-column: 2 / span 4;
     outline: 0.3rem solid white;
     @include box-shadow;
+    @include respond($port-md) {
+      width: 60%;
+    }
+    @include respond($port-sm) {
+      width: 100%;
+      grid-row: 2 / span 3;
+      grid-column: 1 / span 3;
+      margin-left: 4rem;
+    }
   }
   &__img--2 {
     width: 115%;
@@ -30,6 +42,16 @@
     outline: 0.3rem solid white;
     margin-top: 5rem;
     @include box-shadow;
+    @include respond($port-md) {
+      margin-top: unset;
+      width: 80%;
+    }
+    @include respond($port-sm) {
+      width: 100%;
+      grid-row: 4 / span 3;
+      grid-column: 3 / span 3;
+      margin: 1rem;
+    }
   }
   &__content {
     // FLEX
@@ -43,6 +65,9 @@
     align-content: center;
     justify-items: start;
     grid-column: col-start 5 / full-end;
+    @include respond($port-md) {
+      grid-column: full-start / full-end;
+    }
     padding: 6rem 8vw;
   }
   &__text {

@@ -1,6 +1,10 @@
 .realtors {
   background-color: $col-lux-1;
   grid-column: col-start 7 / full-end;
+  @include respond($port-md) {
+    grid-column: full-start / full-end;
+    display: flex;
+  }
   padding: 3vw;
   display: grid;
   align-items: center;
@@ -10,6 +14,15 @@
     grid-row: 1 / 2;
     grid-template-columns: min-content, max-content;
     grid-template-rows: repeat(3, 1fr);
+    @include respond($port-md) {
+      display: flex;
+      gap: 2rem;
+    }
+    @include respond($port-sm) {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+    }
     gap: 5vh 1rem;
   }
   &__img {
@@ -17,11 +30,17 @@
     width: 5rem;
     height: 5rem;
     border-radius: 50%;
+    @include respond($port-md) {
+      grid-column: unset;
+    }
   }
   &__details {
     grid-column: 2 / 3;
     color: $col-lux-4;
     color: $col-white;
+    @include respond($port-md) {
+      grid-column: unset;
+    }
   }
   &__sold {
     font-size: 1.2rem;
@@ -33,5 +52,8 @@
     justify-self: center;
     align-self: end;
     transform: translateY(3rem);
+    @include respond($port-md) {
+      display: none;
+    }
   }
 }
