@@ -11,9 +11,7 @@ const StoryContent = () => {
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio ratione
         dignissimos magnam, blanditiis natus iure vero. Cum nam illo unde,
         soluta repudiandae explicabo quas cupiditate, quibusdam mollitia
-        excepturi officiis vero quaerat qui. Sed doloremque velit asperiores
-        accusamus impedit! Maxime reiciendis modi reprehenderit quidem quam
-        assumenda autem facilis quia.
+        excepturi officiis vero quaerat qui.
       </p>
       <button className="btn">Try our services</button>
     </div>

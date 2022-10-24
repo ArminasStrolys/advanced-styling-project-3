@@ -19,6 +19,17 @@ $font-display: 'Josefin Sans', sans-serif;
 @mixin box-shadow {
   box-shadow: 0 1rem 2rem rgba($col-black, 0.5);
 }
+// MEDIA QUERIES
+$port-lg: 1200px;
+$port-md: 900px;
+$port-sm: 600px;
+$port-xs: 400px;
+
+@mixin respond($breakpoint) {
+  @media (max-width: (($breakpoint / 16px) * 1em)) {
+    @content;
+  }
+}
 // UNIVERSAL RESET
 *,
 *::after,
@@ -31,6 +42,9 @@ $font-display: 'Josefin Sans', sans-serif;
 html {
   box-sizing: border-box;
   font-size: 62.5%;
+  @media only screen and (max-width: $port-lg) {
+    font-size: 50%;
+  }
 }
 
 body {

@@ -50,7 +50,7 @@
     }
   }
   &__like-bg {
-    background-color: $col-white;
+    background-color: $col-lux-3;
     width: 5rem;
     height: 5rem;
     grid-row: 1;
@@ -58,16 +58,21 @@
     justify-self: end;
     position: absolute;
   }
+  &__location-pin,
+  &__area-zone,
+  &__rooms-key,
+  &__price-euro {
+    justify-self: center;
+    background-color: $col-lux-5;
+    width: 4rem;
+    height: 4rem;
+  }
   &__location {
     grid-row: 3;
     grid-column: 1;
     display: grid;
     &-pin {
-      justify-self: center;
       mask-image: url('../images/pin.svg');
-      background-color: $col-lux-5;
-      width: 4rem;
-      height: 4rem;
     }
   }
   &__area {
@@ -75,11 +80,7 @@
     grid-column: 1;
     display: grid;
     &-zone {
-      justify-self: center;
       mask-image: url('../images/zone.svg');
-      background-color: $col-lux-5;
-      width: 4rem;
-      height: 4rem;
     }
   }
   &__rooms {
@@ -87,11 +88,7 @@
     grid-column: 2;
     display: grid;
     &-key {
-      justify-self: center;
       mask-image: url('../images/key.svg');
-      background-color: $col-lux-5;
-      width: 4rem;
-      height: 4rem;
     }
   }
   &__price {
@@ -99,11 +96,7 @@
     grid-column: 2;
     display: grid;
     &-euro {
-      justify-self: center;
       mask-image: url('../images/euro.svg');
-      background-color: $col-lux-5;
-      width: 4rem;
-      height: 4rem;
     }
   }
   .btn {
