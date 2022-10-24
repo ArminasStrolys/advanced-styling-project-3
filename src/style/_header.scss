@@ -18,6 +18,9 @@
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(5, 1fr);
+  @include respond($port-md) {
+    grid-template-rows: repeat(4, 1fr);
+  }
   &__logo {
     height: 3rem;
     grid-column: 1 / -1;
@@ -29,10 +32,16 @@
   &__mid-section {
     grid-row: 3 / 4;
     grid-column: 2 / span 4;
+    @include respond($port-md) {
+      grid-row: 2 / 3;
+    }
   }
   &__companies {
     grid-row: 4 / 5;
     grid-column: 2 / span 4;
+    @include respond($port-md) {
+      grid-row: 3 / 4;
+    }
     color: $col-light-gray-1;
     font-size: 1.4rem;
     display: flex;
@@ -55,6 +64,9 @@
   &__companies-logos {
     grid-row: 5 / 6;
     grid-column: 2 / span 4;
+    @include respond($port-md) {
+      grid-row: 4 / 5;
+    }
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;

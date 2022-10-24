@@ -2,8 +2,15 @@
   background-color: $col-lux-4;
   grid-column: sidebar-start / sidebar-end;
   grid-row: 1 / -1;
+  @include respond($port-md) {
+    grid-row: 1 / 2;
+    grid-column: 1 / -1;
+  }
   display: flex;
   justify-content: center;
+  @include respond($port-md) {
+    justify-content: flex-end;
+  }
   .nav-btn {
     border: none;
     border-radius: 0;
@@ -11,6 +18,10 @@
     height: 0.2rem;
     width: 4rem;
     margin-top: 4rem;
+    @include respond($port-md) {
+      margin-top: 2.3rem;
+      margin-right: 3rem;
+    }
     &::before,
     &::after {
       content: '';
