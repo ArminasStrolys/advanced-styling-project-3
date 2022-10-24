@@ -64,7 +64,7 @@ body {
     minmax(6rem, 1fr)
     [full-end];
   @include respond($port-md) {
-    grid-template-rows: 5rem 50vh min-content min-content max-content min-content repeat(
+    grid-template-rows: 5rem 50vh max-content min-content max-content min-content repeat(
         3,
         min-content
       );
